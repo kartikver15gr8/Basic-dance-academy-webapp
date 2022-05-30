@@ -1,0 +1,79 @@
+doctype html
+html
+  head
+    title Allstars Dance Academy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+              img(src="/static/img/logo.png")
+              
+               
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/") Contact us]
+            li #[a(href = "/") Book Now]
+            li #[a(href = "/") Slots]
+    
+    section#introSection 
+      div.big  Welcome to the Allstars Dance Academy ! 
+      div.small  Dance Dil Se!
+
+    section#missionSection 
+
+        h2 Our Mission 
+        div.card 
+          h3 Perfaction In Dance! 
+          div.cardbox 
+            div.cardimg
+                img(src="/static/img/card1.png")
+
+            div.cardcontent 
+              p Yo! We Build Perfaction In Dance!
+
+
+        div.card 
+          h3 Feel Your Soul! 
+          div.cardbox 
+            div.cardimg
+                img(src="/static/img/card2.png")
+
+            div.cardcontent 
+              p Make Your Soul Dance!
+
+
+        div.card 
+          h3 Live Young Live Free! 
+          div.cardbox 
+            div.cardimg
+                img(src="/static/img/card3.png")
+
+            div.cardcontent 
+              p Love Yourself 
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+          img(src="/static/img/sponsor1.png", alt="sponsor imagae", class = "spimg")
+          img(src="/static/img/sponsor2.png", alt="sponsor imagae", class = "spimg")
+          img(src="/static/img/sponsor3.png", alt="sponsor imagae", class = "spimg")
+          img(src="/static/img/sponsor4.png", alt="sponsor imagae", class = "spimg")
+
+        
+    
+    
+    footer#footer 
+        div#footers
+          img(src="/static/img/foot1.png", alt="footimg" class="footimg")
+          img(src="/static/img/foot2.png", alt="footimg" class="footimg")
+          img(src="/static/img/foot3.png", alt="footimg" class="footimg")
+          img(src="/static/img/foot4.png", alt="footimg" class="footimg")
+          img(src="/static/img/foot5.png", alt="footimg" class="footimg")
+          | Copyright Ⓒ 2022 AllstarsDanceAcademy|AllRightsReserved 
+          
+
+          
+    script
+      include ../static/index.js

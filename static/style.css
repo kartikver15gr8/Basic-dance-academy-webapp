@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+#logo{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 50px;
+    /* border: 2px solid #080704; */
+    /* border-radius: 45px; */
+    filter: invert(1);
+    position: absolute;
+    margin-left: -23px;
+}
+
+#navbar{
+    background-color: rgb(12, 8, 5);
+
+    padding: 13px 4px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: peachpuff; */
+
+}
+
+#navbar li{ 
+    list-style: none;
+
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 2px 14px;
+    /* background-color: goldenrod; */
+    font-size: 1.1rem;
+    margin-left: 23px;
+    margin-right: 9px;
+    border-radius: 45px;
+    color: bisque;
+}
+
+#introSection{
+    /* padding-bottom: 95px; */
+    color: #eee5bc;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    height: 600px;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    background-color: burlywood;
+    
+    
+    
+}
+
+#introSection div.small{
+    font-size: 24px;
+    padding: 5px;
+}
+
+
+
+
+.card{
+    border: 2px solid coral;
+    border-radius: 10px;
+    width: 25%;
+    /* margin: 23px 75px; */
+    margin: 2% 4%;
+    display: inline-block;
+    height: 210px;
+}
+
+.card h3{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Supermercado One', cursive;
+}
+
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardimg{
+    height: 165px;
+    padding: 0 14px;
+    margin: 3px 12px;
+    
+    
+}
+.cardimg img{
+    height:inherit;
+    
+    
+}
+
+.cardcontent p{
+    font-size: 27px;
+    padding: 0 10px;
+}
+
+#missionSection{
+    
+    height: 300px;
+    background-color: blanchedalmond;
+    
+    
+}
+#missionSection h2{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color:#dd9a36;
+    
+    
+}
+
+#sponsorsSection h2{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    
+    
+}
+
+#sponsors{
+    height: 150px;
+    max-width: 1000px;
+    margin: 27px auto;
+
+}
+
+.spimg{
+    height: 80%;
+    margin: 20px;
+    border: 4px solid black;
+    border-radius: 15px;
+    filter: invert(1);
+}
+
+#footer{
+    height: 70px;
+    background-color: wheat;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+
+   
+    
+}
+
+.footimg{
+    height: 44px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* height: 80%;
+    margin: 20px;
+    border: 4px solid black;
+    border-radius: 15px;
+    filter: invert(1); */
+
+}
+
+
+
+/* Hovering elements are listed below */
+
+#navbar li a:hover{
+    background-color: rgb(226, 149, 78);
+    color: black;
+    /* border: 4px solid brown; */
+    
+}
